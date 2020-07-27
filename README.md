@@ -22,3 +22,4 @@ Algorithm
 - 백준 1316번 그룹 문자 체커
 
 - 백준 2941번 크로아티아 알파벳
+  > substring()을 사용할 때 String의 index를 넘어가서 런타임 오류가 발생했다. if(String.length()>1)로 변경해서 해결했다.
