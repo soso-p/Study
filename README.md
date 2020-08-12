@@ -79,6 +79,10 @@ Algorithm
   > char 배열에 하나하나 별을 넣고 StringBuilder로 합쳐서 출력했다.
 
 - 백준 11729 하노이 탑 이동 순서
+
+- 백준 2231번 분해합
+
+- 백준 2798번 
 _______
 Data Structure
 --
