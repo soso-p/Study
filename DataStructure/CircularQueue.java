@@ -5,7 +5,7 @@ public class CircularQueue {
   private int MAX_QUEUE_SIZE;
   private int data[];
   
-  public LinearQueue(int size) { // 큐 생성
+  public CircularQueue(int size) { // 큐 생성
     MAX_QUEUE_SIZE = size;
     data = new int[MAX_QUEUE_SIZE];
   }
@@ -74,16 +74,27 @@ public class CircularQueue {
   
   public static void main(String args[]) {
     int item = 0;
-    LinearQueue linearQueue = new LinearQueue(5);
+    Scanner sc = new Scanner(System.in);
+    CircularQueue circularQueue = new CircularQueue(5);
     
-    linearQueue.initQueue();
+    circularQueue.initQueue();
     
-    linearQueue.enqueue(10); linearQueue.queuePrint();
-    linearQueue.enqueue(20); linearQueue.queuePrint();
-    linearQueue.enqueue(30); linearQueue.queuePrint();
+    System.out.println("--데이터 추가 단계--");
+    while (!circularQueue.isFull()) {
+      System.out.print("정수를 입력하시오: ");
+      item = sc.nextInt();
+      circularQueue.enqueue(item);
+      queuePrint();
+    }
+    System.out.println("큐는 포화상태입니다.\n");
+    sc.close();
     
-    item = linearQueue.dequeue(); linearQueue.queuePrint();
-    item = linearQueue.dequeue(); linearQueue.queuePrint();
-    item = linearQueue.dequeue(); linearQueue.queuePrint();
+    System.out.println("--데이터 삭제 단계--");
+    while (!circularQueue.isEmpty()) {
+      item = circularQueue.dequeue();
+      System.out.println("꺼내진 정수: "+item);
+      queuePrint();
+    }
+    System.out.println("큐는 공백상태입니다.");
   }
 }
