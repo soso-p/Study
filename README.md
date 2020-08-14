@@ -1,8 +1,9 @@
-# Study
+Study
+====
 Post what I have studied.
 ___
 Algorithm
--
+----
 - 백준 10809번 FindAlphabet
 
 - 백준 2675번 RepeatingCharacters
@@ -80,6 +81,7 @@ Algorithm
 
 - 백준 11729 하노이 탑 이동 순서
 
+### 브루트 포스
 - 백준 2231번 분해합
 
 - 백준 2798번 블랙잭
@@ -87,6 +89,12 @@ Algorithm
 - 백준 7568번 덩치
 
 - 백준 1018번 체스판 다시 칠하기
+
+- 백준 1436번 영화감독 숀
+
+### 정렬
+- 백준 2750번 수 정렬하기
+  > 삽입 정렬을 사용했다.
 _______
 Data Structure
 --
