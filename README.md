@@ -106,6 +106,11 @@ Algorithm
   > 산술 평균을 구할 때 Math.round를 썼다. 그걸 썼을 때 음수는 값이 이상하게 나왔는 데 int / int는 int로 값이 나와서 그랬던 거였다. sum을 double형으로 바꿔주고 계산하니 제대로 반올림 된 값이 나왔다.
   
 - 백준 1427번 소트인사이드
+
+- 백준 11650번 좌표 정렬하기
+  > Collections.sort()를 이용해서 정렬했다. Point에 compareTo를 구현하여 이용했다.
+  
+- 백준 11651번 좌표 정렬하기2
 _______
 Data Structure
 --
