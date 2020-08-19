@@ -6,16 +6,16 @@ public class PointSort {
 		Point[] point = new Point[n];
 		ArrayList<Point> pointList = new ArrayList<Point>();
 		for (int i=0;i<n; i++) {
-            int x = sc.nextInt();
-            int y = sc.nextInt();
+           		int x = sc.nextInt();
+            		int y = sc.nextInt();
 			point[i] = new Point(x, y);
 			pointList.add(point[i]);
 		}
-    sc.close();
+    		sc.close();
 		Collections.sort(pointList);
 		for (int i=0;i<pointList.size(); i++) {
-            System.out.println(pointList.get(i).getX() + " " + pointList.get(i).getY());
-        }
+            	System.out.println(pointList.get(i).getX() + " " + pointList.get(i).getY());
+        	}
 	}
 }
 
@@ -52,10 +52,10 @@ class Point implements Comparable<Point> {
 		if (this.x < a.x) {
 			return -1;
 		}
-    else if (this.x > a.x) {
+    		else if (this.x > a.x) {
 			return 1;
 		}
-    else {
+    		else {
 			if (this.y < a.y) {
 				return -1;
 			} else
