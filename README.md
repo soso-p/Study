@@ -111,6 +111,11 @@ Algorithm
   > Collections.sort()를 이용해서 정렬했다. Point에 compareTo를 구현하여 이용했다.
   
 - 백준 11651번 좌표 정렬하기2
+
+- 백준 1181번 단어 정렬
+  > 중복 단어가 들어오면 한번만 출력되야 하는 것을 빼먹어서 틀렸다. 먼저 단어를 arraylist에 중복 검사해서 넣어준 다음 새로운 arraylist에 Strings 객체로 넣어주었다. Collections.sort()를 이용해서 정렬하기 위해 객체에 저장을 했다.
+  
+- 백준 10814번 나이순 정렬
 _______
 Data Structure
 --
