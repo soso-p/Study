@@ -2,9 +2,9 @@ Study
 ====
 Post what I have studied.
 ___
-## [Algorithm](Algorithm/algorithmIndex.md)
+- ## [Algorithm](Algorithm/algorithmIndex.md)
+  > 지금까지 푼 알고리즘 문제들
 
-_____
 ## Data Structure
 
 - 스택 자바 구현
