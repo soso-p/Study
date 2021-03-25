@@ -325,3 +325,9 @@ _______
            null을 넣는 경우 -> leftValue: [2, null, 3] / rightValue: [2, 3, null]
   이렇게 null값을 넣는 경우와 안넣는 경우가 달라진다.
   ```
+
+- 릿코드 104번 Maximum Depth of Binary Tree
+  ```
+  트리의 최대 깊이를 구하는 문제.
+  dfs로 노드들을 방문하면서 root가 null이면 0 반환하고, 자신의 왼쪽 오른쪽 자식들을 dfs 시켜서 길이를 구해온다. 두 길이중 큰 값에 1(자기 자신)을 더해서 반환한다.
+  ```
